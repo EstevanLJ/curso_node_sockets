@@ -1,5 +1,5 @@
 module.exports = function (app) {
-  app.get('/get', function(req, res) {
-    res.send('Teste');
+  app.get('/', function(request, response) {
+    app.app.controllers.index.index(app, request, response);
   })
 }
