@@ -1,0 +1,26 @@
+{
+  "name": "curso_node_sockets",
+  "version": "1.0.0",
+  "description": "Repo do módulo de sockets do curso de NodeJS do Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstevanLJ/curso_node_sockets.git"
+  },
+  "author": "EstevanLJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstevanLJ/curso_node_sockets/issues"
+  },
+  "homepage": "https://github.com/EstevanLJ/curso_node_sockets#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-validator": "^3.1.2"
+  }
+}
